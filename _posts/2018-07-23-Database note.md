@@ -9,7 +9,7 @@
 * Data manipulation or query language 
   for querying and modifying 
 
-<iframe src="https://onedrive.live.com/embed?cid=7A4009AE5855F5B2&amp;resid=7A4009AE5855F5B2%2110980&amp;authkey=ABln01F7kWm1la0&amp;em=2&amp;wdAr=1.7777777777777777" width="1186px" height="691px" frameborder="0">这是嵌入 <a target="_blank" href="https://office.com">Microsoft Office</a> 演示文稿，由 <a target="_blank" href="https://office.com/webapps">Office Online</a> 支持。</iframe>
+<iframe src="https://onedrive.live.com/embed?cid=7A4009AE5855F5B2&amp;resid=7A4009AE5855F5B2%2110980&amp;authkey=ABln01F7kWm1la0&amp;em=2&amp;wdAr=1.7777777777777777" width="1186px" height="691px" frameborder="0">this is embeded <a target="_blank" href="https://office.com">Microsoft Office</a> ppt<a target="_blank" href="https://office.com/webapps">Office Online</a> supported</iframe>
 
 ## key people
 * DBMS implementer
