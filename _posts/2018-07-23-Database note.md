@@ -6,10 +6,8 @@
 * Schema versus data
 * Data definition language
 	set up schema
-* Data manipulation or query language 
-  for querying and modifying 
-
-<iframe src="https://onedrive.live.com/embed?cid=7A4009AE5855F5B2&amp;resid=7A4009AE5855F5B2%2110980&amp;authkey=ABln01F7kWm1la0&amp;em=2&amp;wdAr=1.7777777777777777" width="1186px" height="691px" frameborder="0">this is embeded <a target="_blank" href="https://office.com">Microsoft Office</a> ppt<a target="_blank" href="https://office.com/webapps">Office Online</a> supported</iframe>
+* Data manipulation or query language
+  for querying and modifying
 
 ## key people
 * DBMS implementer
@@ -19,13 +17,13 @@ establishes schema
 * Database application developer
 programs that operate on database: sales database insert/delete
 * Database administrator
-loads the data,keep running smoothly 
+loads the data,keep running smoothly
 tunning paramer to get better performance
 highly paid
 
 # 02-02-relational-model
 used by all major commercial database systems
-very simple model 
+very simple model
 query with high-level-languages: simple yet expensive
 efficient implementations
 
@@ -44,7 +42,7 @@ steps:
 * relational algebra - formal
 * SQL - actual/implemented
 
-# XML Data 
+# XML Data
 * Introduction,well-informed XML(extensible markup language)
 * well-formed XML
 adheres to basic structural requirements
@@ -54,20 +52,19 @@ adheres to basic structural requirements
 XML parser(not well-formed)
 
 Document Type Descriptor(DTD)
-* grammar-like lauguage 
+* grammar-like lauguage
 * special attributes types ID and IDREF(S)  pointer untyped
 
-DTD/XSD 
-pros: 
+DTD/XSD
+pros:
 * Programs can assume structure
 * CSS/XSL
-* specification - data exchange 
-* documentation 
+* specification - data exchange
+* documentation
 * benefits of "typing"
 
 cons:
 * flexibility, ease of change
-* DTDs can be messy -- irregular 
-* XSDs 
+* DTDs can be messy -- irregular
+* XSDs
 * benefits of "no typing"
-
