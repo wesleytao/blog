@@ -1,5 +1,5 @@
 
-# 01-01-introduction
+# Database System Concept
 ## key concepts
 * Data model
 	* set of records, XML,graph
@@ -21,28 +21,28 @@ loads the data,keep running smoothly
 tunning paramer to get better performance
 highly paid
 
-# 02-02-relational-model
+## Relational model
 used by all major commercial database systems
 very simple model
 query with high-level-languages: simple yet expensive
 efficient implementations
 
-# relation database
+## Relation database
 * NULL - special value for 'unknown" or "undefined"
 * key -attribute whose value is unique in each tuple
 
-# Querying Relational Database
+## Querying Relational Database
 steps:
 1.Design schema;create using DDL
 2.'Bulk load' initial data
 3. Repeat: execute queries and modifications
 
-# ad-hoc queries in high-level language
-# Query languages
+## ad-hoc queries in high-level language
+## Query languages
 * relational algebra - formal
 * SQL - actual/implemented
 
-# XML Data
+## XML Data
 * Introduction,well-informed XML(extensible markup language)
 * well-formed XML
 adheres to basic structural requirements

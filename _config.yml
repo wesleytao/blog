@@ -7,9 +7,9 @@ permalink:           pretty
 # permalink:           /blog/:year/:month/:day/:title/
 
 # Setup
-title:               Lanyon
-tagline:             'A Jekyll theme'
-description:         'A reserved <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that places the utmost gravity on content with a hidden drawer. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
+title:               wesley
+tagline:             'A Learning Machine'
+description:         'A place for organizing thoughts and dream about tech future'
 url:                 wesleytao.github.io
 baseurl:             '/blog'
 # baseurl:             ''
