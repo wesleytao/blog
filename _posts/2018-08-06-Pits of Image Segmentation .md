@@ -3,8 +3,8 @@
 The satellite images are too big to copy to GPU or to perform convolutions on. A typical type of an image is 100K * 100K * 4 pixel. One natural solution for this is to divide the image in a predefined number of tiles and train on small batches.
 ![img](figs/large.png)
 Our Solution:
-1. divide into 512 * 512 * 3 tiles
-2. set small batch size
+1. Divide into 512 * 512 * 3 tiles
+2. Set small batch size
 
 
 ## Unbalanced data
@@ -14,8 +14,8 @@ Our first attemp using FCN model achieve good error rate by classifying all data
 
 Things to Try:
 
-1.  Oversampling | Weight adjusting
-2.  Cascade  | Thresholding
+1.  Oversampling and Weight adjusting
+2.  Cascade and Thresholding
 ![img](figs/cascade.png)
 3. Use binary cross-entropy instead of global accuracy
 
@@ -24,7 +24,6 @@ Our Solution:
 2. Use Convolution to enlarge the area
 >
 img = cv2.GaussianBlur(img,(5,5),0)
-
 >
 np.where(img[:,:,:]>0,1,0)
 
