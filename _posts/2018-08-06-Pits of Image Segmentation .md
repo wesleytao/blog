@@ -15,15 +15,10 @@ Our first attemp using FCN model achieve good error rate by classifying all data
 
 Things to Try:
 
-<<<<<<< HEAD
+
 1.  Oversampling | Weight adjusting
 2.  Cascade  | Thresholding
 <img src="https://github.com/wesleytao/blog/blob/master/figs/figs/cascade.png" alt="img">
-=======
-1.  Oversampling and Weight adjusting
-2.  Cascade and Thresholding
-![img](figs/cascade.png)
->>>>>>> ebcc24a617771f951f0af7cee5f05a39c21e96dc
 3. Use binary cross-entropy instead of global accuracy
 
 Our Solution:
