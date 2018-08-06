@@ -1,7 +1,7 @@
 # Tree Detection Project
 ## Memory Error
 The satellite images are too big to copy to GPU or to perform convolutions on. A typical type of an image is 100K * 100K * 4 pixel. One natural solution for this is to divide the image in a predefined number of tiles and train on small batches.
-<img src="blog/figs/large.png" alt="img">
+<img src="https://wesleytao.github.io/blog/figs/large.png" alt="img">
 
 Our Solution:
 1. Divide into 512 * 512 * 3 tiles
