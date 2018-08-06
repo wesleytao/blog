@@ -1,7 +1,7 @@
 # Tree Detection Project
 ## Memory Error
 The satellite images are too big to copy to GPU or to perform convolutions on. A typical type of an image is 100K * 100K * 4 pixel. One natural solution for this is to divide the image in a predefined number of tiles and train on small batches.
-<img src="https://github.com/wesleytao/blog/blob/master/figs/figs/large.png" alt="img">
+<img src="/figs/large.png" alt="img">
 
 Our Solution:
 1. Divide into 512 * 512 * 3 tiles
@@ -14,11 +14,9 @@ Our first attemp using FCN model achieve good error rate by classifying all data
 <img src="https://github.com/wesleytao/blog/blob/master/figs/figs/imbalanced.png" alt="img">
 
 Things to Try:
-
-
-1.  Oversampling | Weight adjusting
-2.  Cascade  | Thresholding
-<img src="https://github.com/wesleytao/blog/blob/master/figs/figs/cascade.png" alt="img">
+1.  Oversampling or Weight adjusting
+2.  Cascade  or Thresholding
+<img src="https://github.com/wesleytao/blog/blob/master/figs/cascade.png" alt="img">
 3. Use binary cross-entropy instead of global accuracy
 
 Our Solution:
