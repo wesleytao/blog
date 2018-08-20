@@ -11,8 +11,8 @@ title:               wesley
 tagline:             'A Learning Machine'
 description:         'A place for organizing thoughts and dream about tech future'
 url:                 wesleytao.github.io
-# baseurl:             '/blog'
-baseurl:             ''
+baseurl:             '/blog'
+# baseurl:             ''
 
 plugins:             [jekyll-paginate]
 paginate:            5
