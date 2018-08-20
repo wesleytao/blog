@@ -4,21 +4,76 @@ title: "Air Pollution in France"
 date: "2018-08-20 10:49:23 -0400"
 ---
 
+
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Air Dash Board</title>
+  </head>
+<body>
+
 <h1>Pollution Project v1.2</h1>
 
 <div class='tableauPlaceholder' id='viz1534787813191' style='position: relative'>
-<noscript>
-<a href='#'>
-<img alt='Dashboard 2 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;pa&#47;parca_ggtrend_2&#47;Dashboard2&#47;1_rss.png' style='border: none' />
-</a>
-</noscript>
-<object class='tableauViz'  style='display:none;'>
-<param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F'
- <param name='embed_code_version' value='3' /> <param name='site_root' value='' />
- <param name='name' value='parca_ggtrend_2&#47;Dashboard2' /><param name='tabs' value='no' />
- <param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;pa&#47;parca_ggtrend_2&#47;Dashboard2&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1534787813191');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='1000px';vizElement.style.height='827px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+  <noscript>
+    <a href='#'>
+      <img alt='Dashboard 2 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;pa&#47;parca_ggtrend_2&#47;Dashboard2&#47;1_rss.png' style='border: none' />
+    </a>
+    </noscript>
+    <object class='tableauViz'  style='display:none;'>
+      <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+      <param name='embed_code_version' value='3' />
+       <param name='site_root' value='' />
+       <param name='name' value='parca_ggtrend_2&#47;Dashboard2' />
+       <param name='tabs' value='no' />
+       <param name='toolbar' value='yes' />
+       <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;pa&#47;parca_ggtrend_2&#47;Dashboard2&#47;1.png' />
+       <param name='animate_transition' value='yes' />
+       <param name='display_static_image' value='yes' />
+       <param name='display_spinner' value='yes' />
+       <param name='display_overlay' value='yes' />
+       <param name='display_count' value='yes' />
+       <param name='filter' value='publish=yes' />
+     </object>
+   </div>
+   <script type='text/javascript'>
+   var divElement = document.getElementById('viz1534787813191');
+   var vizElement = divElement.getElementsByTagName('object')[0];
+   vizElement.style.width='1000px';vizElement.style.height='827px';
+   var scriptElement = document.createElement('script');
+   scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+   vizElement.parentNode.insertBefore(scriptElement, vizElement);
+ </script>
 
-<div class='tableauPlaceholder' id='viz1534787412607' style='position: relative'><noscript><a href='#'><img alt='Dashboard 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;pa&#47;parcavsparif&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='parcavsparif&#47;Dashboard1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;pa&#47;parcavsparif&#47;Dashboard1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1534787412607');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='1000px';vizElement.style.height='827px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+<div class='tableauPlaceholder' id='viz1534787412607' style='position: relative'>
+  <noscript><a href='#'>
+    <img alt='Dashboard 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;pa&#47;parcavsparif&#47;Dashboard1&#47;1_rss.png' style='border: none' />
+  </a></noscript><object class='tableauViz'  style='display:none;'>
+    <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+     <param name='embed_code_version' value='3' />
+     <param name='site_root' value='' />
+     <param name='name' value='parcavsparif&#47;Dashboard1' />
+     <param name='tabs' value='no' />
+     <param name='toolbar' value='yes' />
+     <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;pa&#47;parcavsparif&#47;Dashboard1&#47;1.png' />
+     <param name='animate_transition' value='yes' />
+     <param name='display_static_image' value='yes' />
+     <param name='display_spinner' value='yes' />
+     <param name='display_overlay' value='yes' />
+     <param name='display_count' value='yes' />
+     <param name='filter' value='publish=yes' />
+   </object>
+ </div>
+ <script type='text/javascript'>
+ var divElement = document.getElementById('viz1534787412607');
+ var vizElement = divElement.getElementsByTagName('object')[0];
+ vizElement.style.width='1000px';vizElement.style.height='827px';
+ var scriptElement = document.createElement('script');
+ scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+ vizElement.parentNode.insertBefore(scriptElement, vizElement);
+</script>
 
 
 <h1>Google Trend and PM2.5 wihtout time adjustment</h1>
@@ -136,3 +191,6 @@ scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
 <!-- <h2>Word Frequency</h2>
 <div class='tableauPlaceholder' id='viz1531880854184' style='position: relative'><noscript><a href='#'><img alt='&lt;Word Frequency&gt; ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;wo&#47;wordfrequency_1&#47;Sheet1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='wordfrequency_1&#47;Sheet1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;wo&#47;wordfrequency_1&#47;Sheet1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1531880854184');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
  -->
+
+</body>
+</html>
