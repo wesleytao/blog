@@ -8,9 +8,9 @@ date: "2018-08-20 10:49:23 -0400"
 
 Air pollution is causing 48000 French deaths per year.  Over 47 million French people are exposed to a level of air pollution particles that are considered to be unsafe by the WHO.
 
-<img src="https://wesleytao.github.io/blog/figs/paris-smog.jpg" alt="img">
+<img src="https://wesleytao.github.io/blog/figs/paris-smog.png" alt="img">
 
-Speaking of the most polluted place in all of France, **Marseille** won the top as o survey carried out in 2016, followed by Lyon and Paris.
+Speaking of the most polluted place in all of France, **Marseille** won the top as o survey carried out in 2016, followed by **Lyon and Paris**.
 Paris has fought against the air pollution for a decade.  The city officials have implemented a series of counteraction to address the issue. To combat high levels of smog and the authorities have introduced fines for any vehicle not carrying a "Crit'Air" emissions category sticker. This is a part of a scheme to promote lower-emitting vehicles and combat high levels of smog.
 
 # PM2.5 and the smog
