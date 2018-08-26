@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "House Price Prediction"
-date: "2018-08-20 10:49:23 -0400"
+date: "2018-08-25 10:49:23 -0400"
 ---
 
 # Introduction  
