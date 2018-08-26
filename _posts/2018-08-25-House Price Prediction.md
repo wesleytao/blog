@@ -10,27 +10,30 @@ The problem involves analyzing housing prices that were sold between May 2014 an
 
 # Dataset Description and its Features  
 The dataset contains 21,614 samples and 20 features. The data can be download <a href="file/data.csv">here</a>.
-### features
- 1. ID — Notation for a house  
- 2. Date — Date house was sold  
- 3. Price — House price (target variable)  
- 4. Bedrooms — Number of bedrooms  
- 5. Bathrooms — Number of bathrooms
- 6. Sqft_Living — Square footage of the home
- 7. Sqft_Lot — Square footage of the lot
- 8. Floors — Total floors (levels) in house
- 9. Waterfront — House which has a view to a waterfront
- 10. View — Has been viewed
- 11. Condition — How good the condition is overall
- 12. Grade — Overall grade given to the housing unit
- 13. Sqft_Above — Square footage of the house apart  from basement
- 14. Sqft_Basement — Square footage of the basement
- 15. Yr_Built — Built Year
- 16. Yr_Renovated — Year when house was renovated
- 17. Zipcode — zip
- 18. Lat — Latitude coordinate
- 19. Long — Longitude coordinate
- 20. Sqft_Living15 — Living room area in 2015 (implies some renovations).  This might or might have affected the lotsize area 21) Sqft_lot15 — Lot size area in 2015 (implies some renovations)
+### feature table
+
+**Code** | **Name**  
+ID | Notation for a house  
+Date | Date house was sold  
+Price | House price (target variable)  
+Bedrooms | Number of bedrooms  
+Bathrooms | Number of bathrooms
+Sqft_Living | Square footage of the home  
+Sqft_Lot | Square footage of the lot  
+Floors | Total floors (levels) in house  
+Waterfront | House which has a view to a waterfront  
+View | Has been viewed  
+Condition | How good the condition is overall  
+Grade | Overall grade given to the housing unit  
+Sqft_Above | Square footage of the house apart  from basement  
+Sqft_Basement | Square footage of the basement  
+Yr_Built | Built Year
+Yr_Renovated | Year when house was renovated  
+Zipcode | zip  
+Lat | Latitude coordinate  
+Long | Longitude coordinate  
+Sqft_Living15 | Living room area in 2015 (implies some renovations).  This might or might have affected the lotsize area 21)
+Sqft_lot15 | Lot size area in 2015 (implies some renovations)
 
 
 # Exploratory Data analysis
@@ -91,8 +94,68 @@ those without waterfront view
 
 # Machine Learning Model
 
-Detailed script is over <a href="https://wesleytao.github.io/OneConnect/">here</a>
+A detailed script is over <a href="https://wesleytao.github.io/OneConnect/">here</a>
 
+### Loss Function
+Mean squared error: easy to train the model
+Considering the logarithm for y value, the metric would be mean sqaured log error  
+### Metric
+CV error for parameter tunning
+test error for model comparison and report
 
-# Evaluation Criteria
- We will assess how you approach in this open ended problem, your initial data analysis, why you think a certain approach is suited to solve this problem. We would want to know why you chose a particular evaluation metric, loss function etc, what is your inference from the results.
+### Rationale for model selection
+Although some features exhibit **a linear relationship** with our target value, the best model for this problem set would be a **tree-based model**. The tree-base model would exploit the full **combination** of these variables and give the state-of-the-art prediction accuracy.  
+Features might have an **interaction effect**, and this could be difficult for linear models to find out. A Stepwise Forward Selection Process with all the possible interaction variables and higher-order terms might work but not efficient and seems too arbitrary.
+
+**Basemodel**   
+Linear Model Elastic-Net (L1 and L2 penalty both included)
+During the training process, the model with higher penalty yeild lower score.
+The model with small penalty fails to converge and it means all the variables are linear related to the target and they don't have much collinearity.(further test needed)
+
+**FinalModel**  
+Fine-tuned Light gradient Boosting model, this algorithm is currently the best model
+
+## Results and Interpretation
+<table>
+  <thead>
+    <tr>
+      <th>Model</th>
+      <th>CV Error</th>
+      <th>Test error</th>
+      <th>Training Time + Test Time</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>ElasticNet</td>
+      <td>0.0678</td>
+      <td>0.06947</td>
+      <td>2.02s + 0.015s</td>
+    </tr>
+    <tr>
+      <td>RandomForest</td>
+      <td>0.03557</td>
+      <td>0.03653</td>
+      <td>1.3763s+ 0.028s</td>
+    </tr>
+
+    <tr>
+      <td>LightGBM</td>
+      <td>0.02628</td>
+      <td>0.02666</td>
+      <td>0.0525s+0.0638s</td>
+    </tr>
+
+  </tbody>
+</table>
+
+### Important features Ranking
+1. Location  ( represented as zip code latitude and longituted)
+2. Area   (Sqft_Lot, Sqft_Above)
+3. Grade & Condition & Renovation
+4. Seasonality (seasonl sale)
+5. Floor plan and Design (eg 2b3b 2 floor)
+6. View
+7. Waterfront
+
+<img src="https://wesleytao.github.io/blog/figs/feature_importance.png" alt="img">
