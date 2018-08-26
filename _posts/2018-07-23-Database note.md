@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Hackthon Solution for Indeed"
-date: "2018-09-23 16:49:23 -0400"
+title: "Database Note 1"
+date: "2018-07-23 16:49:23 -0400"
 ---
 
 # Database System Concept
